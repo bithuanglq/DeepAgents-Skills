@@ -1,0 +1,12 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "research_simple": "./research_skills_deep_agent.py:agent"
+  },
+  "env": ".env",
+  "python_version": "3.13",
+  "store": {
+    "type": "sqlite",
+    "path": "./langgraph.db"
+  }
+}
