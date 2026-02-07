@@ -1,10 +1,10 @@
 # 多智能体中间件(Middleware)设计
 
-基于 LangChain DeepAgents 的智能体技能调用与执行项目，展示如何通过自定义中间件实现 SKILL 技能文档的读取和执行，以及主子智能体的协同工作。
+基于 DeepAgents 的智能体技能调用与执行项目，展示如何通过自定义中间件实现 SKILL 技能文档的读取和执行，以及主子智能体的协同工作。
 
 ## 项目概述
 
-本项目基于 **LangChain DeepAgents** 框架，实现了一个**架构视图信息提取系统**。通过自定义 `SkillsMiddleware` 和 `NoSkillsMiddleware` 中间件，实现了技能的渐进式披露加载、主子智能体协同工作、以及智能体内部流程的精细化控制。系统可从用户对话中自动识别并提取 SysMLv2 六种架构视图（需求图、用例图、活动图、状态机图、模块定义图、内部模块图）的相关信息。
+本项目基于 **DeepAgents** 框架，实现了一个**架构视图信息提取系统**。通过自定义 `SkillsMiddleware` 和 `NoSkillsMiddleware` 中间件，实现了技能的渐进式披露加载、主子智能体协同工作、以及智能体内部流程的精细化控制。系统可从用户对话中自动识别并提取 SysMLv2 六种架构视图（需求图、用例图、活动图、状态机图、模块定义图、内部模块图）的相关信息。
 
 **核心技术亮点：**
 
@@ -232,3 +232,4 @@ query = "燃油从打开油箱传递到打开发动机"
 - [LangChain DeepAgents 文档](https://github.com/langchain-ai/deepagents)
 - [Anthropic Agent Skills 模式](https://www.anthropic.com/research)
 - [https://github.com/pingcy/deepagents-demo](https://github.com/pingcy/deepagents-demo)
+
